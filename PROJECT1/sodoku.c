@@ -1,9 +1,7 @@
 #include"sodoku.h"
 int main(){
-  int **puzzle;
 
-  puzzle = createPuzzle();
-  printpuzzle(puzzle);
+  createPuzzle();
 
 
   return 0;
